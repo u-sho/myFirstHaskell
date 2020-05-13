@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 8c7ed0badc6244baabe762a9b607ba38f129b763e7a950d957c4ad3c468ce67a
+-- hash: 8616a82c802ba54d8ae8c7868b95bea757d047cb69cf21f87b98e135b39d99fb
 
 name:           myFirstHaskell
 version:        0.1.0.0
@@ -36,7 +36,7 @@ library
       base >=4.7 && <5
   default-language: Haskell2010
 
-executable myFirstHaskell-exe
+executable my-exe
   main-is: Main.hs
   other-modules:
       Paths_myFirstHaskell
