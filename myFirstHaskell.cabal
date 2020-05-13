@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 8616a82c802ba54d8ae8c7868b95bea757d047cb69cf21f87b98e135b39d99fb
+-- hash: b657c203e21bd0e8ce230669edaedf4ae3c2e6109c2f9a7617c02d22a38088f7
 
 name:           myFirstHaskell
 version:        0.1.0.0
@@ -28,6 +28,7 @@ source-repository head
 library
   exposed-modules:
       Lib
+      MathLib
   other-modules:
       Paths_myFirstHaskell
   hs-source-dirs:
